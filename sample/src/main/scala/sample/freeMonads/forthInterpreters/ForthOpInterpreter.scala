@@ -32,7 +32,7 @@ class ForthOpInterpreter extends (ForthOp ~> Id) {
 
 /**
   * The use of this "stateful" object illustrates the
-  * dangers of mutable objects. The use of the interpretr
+  * dangers of mutable objects. The use of the interpreter
   * repeatedly will result in different results
   */
 object ForthOpInterpreter extends ForthOpInterpreter
